@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory, useLocation } from 'react-router-dom';
-import SideNav, { Toggle, Nav, NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
-import { AiFillFolder } from 'react-icons/ai';
+import SideNav, { NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
+import { Image } from 'react-bootstrap';
 import { GoGraph } from 'react-icons/go';
 import { BsEnvelope, BsFolder } from 'react-icons/bs';
 import { RiStickyNoteLine } from 'react-icons/ri';
@@ -23,7 +23,7 @@ export default function NavBarLeft() {
                 }
             }}
         >
-            <img
+            <Image
                 src={Img_icon_left}
                 className="Img_icon_left"
             />
