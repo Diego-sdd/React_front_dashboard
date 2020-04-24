@@ -1,0 +1,17 @@
+.nav_bar_left{
+   width: 70px !important;
+   background-color: #373B53;
+}
+.Img_icon_left{
+    width: 70px;
+    height: 75px;
+    margin-right: 30px;
+    margin: 0px;
+    margin-left: 0px;
+    position: absolute;
+}
+.Toggle{
+    opacity: 0;
+    margin-top: 10px;
+    background-color: rgb(47, 0, 255);
+}

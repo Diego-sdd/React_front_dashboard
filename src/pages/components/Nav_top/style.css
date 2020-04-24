@@ -1,0 +1,71 @@
+:root {
+    --font-gray: rgb(216, 214, 214);
+  }
+
+.nav_top{
+    margin-left: auto;
+    position: relative !important;
+    margin-left: 50px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding:12px ;
+}
+.nav_top .input_text_search{
+    border: 0;
+    float: left;
+}
+.nav_top .icon_search{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 25px;
+    z-index: 99999;
+    color:var(--font-gray);
+    float: left;
+}
+.nav_top .input_text_search_mobile{
+    display: none;
+}
+input[type=text]{   
+    width:60%;
+}
+.nav_top .text{
+    float: left;
+    margin-left: 20px;
+}
+.nav_top .text #text_name{
+    font-weight: bold;
+    margin: 0;
+}
+.nav_top .text #text_subName{
+    text-align: right;
+    font-weight: 400;
+    font-size: 14px;
+    color:var(--font-gray);
+    margin: 0;
+    float: right;
+    
+}
+.icon_user_top{
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    width: 4%;
+}
+.nav_top .icon_Chevron_top{
+    color: var(--font-gray);
+    cursor: pointer;
+}
+.nav_top .icon_Bell_top{
+    color: var(--font-gray);
+    margin-left: 60px;
+    padding-left: 15px;
+    font-size: 40px;
+    cursor: pointer;
+    border-left: 1px solid var(--font-gray);
+}
+.nav_top .icon_Out_top{
+    color: var(--font-gray);
+    font-size: 26px;
+    margin-left: 20px;
+    cursor: pointer;
+}

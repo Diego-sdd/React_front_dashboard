@@ -1,0 +1,178 @@
+@media only screen and (min-width: 1037px) and (max-width: 1204px){
+  
+  input[type=text]{   
+    width:55%;
+  }
+  .nav_top .icon_Bell_top{
+    margin-left: 30px;
+  }
+  .icon_user_top{
+    width: 5% !important;
+  }
+}
+@media only screen and (min-width: 896px) and (max-width: 1036px){
+ 
+  input[type=text]{   
+    width:48%;
+  }
+  .nav_top .icon_Bell_top{
+    margin-left: 27px;
+  }
+  .icon_user_top{
+    width: 6% !important;
+  }
+}
+
+@media only screen and (min-width: 778px) and (max-width: 895px){
+
+  input[type=text]{   
+    width:40%;
+  }
+  .nav_top .icon_Bell_top{
+    margin-left: 22px;
+  }
+  .icon_user_top{
+    width: 7% !important;
+  }
+}
+
+@media only screen and (min-width: 722px) and (max-width: 777px){
+  
+  input[type=text]{   
+    width:35%;
+  }
+  .nav_top .icon_Bell_top{
+    margin-left: 18px;
+  }
+  .icon_user_top{
+    width: 8% !important;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 723px){
+  .input_text_search, .icon_search{
+    display: none !important;
+  }
+  .nav_top .text{
+    margin-left: 38%;
+  }
+  .nav_top .icon_Bell_top{
+    margin-left: 15px;
+  }
+  .nav_top .input_text_search_mobile{
+    display: unset  !important;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+  .icon_user_top{
+    width: 8% !important;
+  }
+  input[type=text]{   
+    width:95%;
+  }
+}
+@media only screen and (min-width: 436px) and (max-width: 575px){
+  .input_text_search, .icon_search{
+    display: none !important;
+  }
+  .nav_top .text{
+    margin-left: 15%;
+  }
+  .nav_top .icon_Bell_top{
+    margin-left: 15px;
+  }
+  .nav_top .input_text_search_mobile{
+    display: unset  !important;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+  .icon_user_top{
+    width: 10% !important;
+  }
+  input[type=text]{   
+    width:93%;
+  }
+}
+@media only screen and (min-width: 393px) and (max-width: 435px){
+  .input_text_search, .icon_search{
+    display: none !important;
+  }
+  .nav_top .text{
+    margin-left: 5%;
+  }
+  .nav_top .icon_Bell_top{
+    margin-left: 15px;
+  }
+  .nav_top .input_text_search_mobile{
+    display: unset  !important;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+  .icon_user_top{
+    width: 10% !important;
+  }
+  input[type=text]{   
+    width:90%;
+  }
+}
+@media only screen and (min-width: 326px) and (max-width: 392px){
+  .input_text_search, .icon_search{
+    display: none !important;
+  }
+  .nav_top .text{
+    margin-left: 0%;
+  }
+  .nav_top .icon_Bell_top{
+    margin-left: 15px;
+    font-size: 25px;
+    padding-left: 6px;
+  }
+  .nav_top .icon_Out_top{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .nav_top .text{
+    font-size: 14px;
+}
+  .nav_top .input_text_search_mobile{
+    display: unset  !important;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .icon_user_top{
+    width: 10% !important;
+  }
+  input[type=text]{   
+    width:95%;
+  }
+}
+@media only screen and (min-width: 250px) and (max-width: 325px){
+  .input_text_search, .icon_search{
+    display: none !important;
+  }
+  .nav_top .text{
+    margin-left: 0%;
+  }
+  .nav_top .icon_Bell_top{
+    margin-left: 10px;
+    font-size: 20px;
+    padding-left: 6px;
+  }
+  .nav_top .icon_Out_top{
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  .nav_top .text{
+    font-size: 10px;
+}
+  .nav_top .input_text_search_mobile{
+    display: unset  !important;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .icon_user_top{
+    width: 14% !important;
+  }
+  input[type=text]{   
+    width:95%;
+  }
+}

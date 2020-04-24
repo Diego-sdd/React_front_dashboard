@@ -1,0 +1,44 @@
+:root {
+    --font-gray: rgb(216, 214, 214);
+    --color_purple: #6F52ED;
+  }
+.header{
+    margin-top: 40px;
+   margin-left: 70px !important;
+}
+.header .button_one button{
+    font-size: 14px;
+    width: 100%;
+    background-color: rgba(238, 238, 238, 0);
+    color:#6F52ED;
+    border: 1px solid #6F52ED;
+    font-weight: 600;
+    height: 40px;
+}
+.header .button_one button:hover{
+    background-color: rgba(110, 82, 237, 0.267);
+} 
+.header .button_one button:active{
+    background-color: rgba(110, 82, 237, 0.267) !important;
+    color:#6F52ED !important;
+    border: 1px solid #6F52ED !important;
+}
+
+.header h3{
+    font-weight: 700;
+}
+.icon_GrEdit{
+    color: var(--color_purple);
+    font-size: 16px;
+    margin-right: 3px;
+}
+.header .button_two button{
+    background-color: #6F52ED;
+    border:1px solid #6F52ED;
+    width: 100%;
+    color:white;
+}
+.header .button_two button:hover{
+    background-color: rgba(110, 82, 237, 0.842);
+    color:rgb(255, 255, 255);
+}
