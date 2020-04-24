@@ -1,6 +1,7 @@
 .nav_bar_left{
    width: 70px !important;
    background-color: #373B53;
+   position: fixed;
 }
 .Img_icon_left{
     width: 70px;

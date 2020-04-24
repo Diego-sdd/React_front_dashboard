@@ -1,5 +1,5 @@
 :root {
-    --font-gray: rgb(216, 214, 214);
+    --font-gray: #A6ACBE;
     --color_purple: #6F52ED;
   }
 .header{
@@ -10,8 +10,8 @@
     font-size: 14px;
     width: 100%;
     background-color: rgba(238, 238, 238, 0);
-    color:#6F52ED;
-    border: 1px solid #6F52ED;
+    color:var(--color_purple);
+    border: 1px solid var(--color_purple);
     font-weight: 600;
     height: 40px;
 }
@@ -20,12 +20,17 @@
 } 
 .header .button_one button:active{
     background-color: rgba(110, 82, 237, 0.267) !important;
-    color:#6F52ED !important;
-    border: 1px solid #6F52ED !important;
+    color:var(--color_purple)!important;
+    border: 1px solid var(--color_purple) !important;
 }
 
 .header h3{
     font-weight: 700;
+}
+.header p{
+    color: var(--font-gray);
+    font-weight: 700;
+    font-size: 13px;
 }
 .icon_GrEdit{
     color: var(--color_purple);
@@ -33,12 +38,125 @@
     margin-right: 3px;
 }
 .header .button_two button{
-    background-color: #6F52ED;
-    border:1px solid #6F52ED;
+    background-color: var(--color_purple);
+    border:1px solid var(--color_purple);
     width: 100%;
     color:white;
 }
 .header .button_two button:hover{
     background-color: rgba(110, 82, 237, 0.842);
     color:rgb(255, 255, 255);
+}
+/* ----------------------------- */
+.card_top{
+    margin-top: 20px;
+    margin-left: 70px !important;
+}
+.card_bottom{
+    margin-top: 20px ;
+}
+.card_top .card, .card_bottom .card{
+    padding: 20px;
+    display: block;
+    width: 100%;
+    max-height: 85%;
+    border:0;
+    box-shadow: 0px 4px 2px 1px #EDEDF6;
+}
+.card_top .icon_user_card, .card_bottom .icon_user_card{
+    float: left;
+    background-color:#F8F5FD;
+    border-radius: 50%;
+    color:var(--color_purple);
+    padding: 20px;
+    font-size: 70px;
+}
+.card_top .text_card, .card_bottom .text_card{
+   margin-left: 38% !important;
+   margin-top: 1px;
+}
+.card_top .text_card h4, .card_bottom .text_card h4{
+    font-weight: bold;
+}
+.card_top .text_card p, .card_bottom .text_card p{
+    font-weight: bold;
+    font-size: 13px;
+    color: var(--font-gray);
+}
+.card_top .icon_timeline_card{
+    float: left;
+    background-color:#F1FCF8;
+    border-radius: 50%;
+    color:#21B8C7;
+    padding: 20px;
+    font-size: 70px;
+}
+.card_top .icon_trendingDown_card{
+    float: left;
+    background-color:rgb(251, 239, 241);
+    border-radius: 50%;
+    color:#FF4C61;
+    padding: 20px;
+    font-size: 70px;
+}
+.card_top .icon_book_card{
+    float: left;
+    background-color:#F2FAFF;
+    border-radius: 50%;
+    color:#4CB8FF;
+    padding: 20px;
+    font-size: 70px;
+}
+/* ====================== */
+.deshboard{
+    margin-top: 10px;
+    margin-left: 70px !important;
+}
+/* .deshboard .chart_basic{
+    width: 100% !important;
+} */
+
+
+/* ============== */
+.card_card_students_average .text_top{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.246);
+    padding: 20px 10px 0px 10px;
+}
+.card_card_students_average .text_top h6{
+    float: left;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.card_card_students_average .text_top #option_descending{
+    float: right;
+}
+.card_card_students_average .text_top p{
+    font-size: 13px;
+    color:var(--font-gray);
+    float: left;
+}
+.card_card_students_average .text_top .icon_Chevron_students{
+    color:var(--font-gray);
+    float: right;
+    margin-left:2px;
+    cursor: pointer;
+}
+.card_card_students_average .icons_sstudents{
+    padding: 20px 10px 0px 20px;
+  
+}
+.card_card_students_average .icons_sstudents #img{
+    float: left;
+    width: 15%;
+}
+.card_card_students_average .icons_sstudents h6{
+    float: left;
+    color:var(--font-gray);
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card_card_students_average .icons_sstudents p{
+    float: right;
+    font-weight: 900;
 }
