@@ -1,0 +1,47 @@
+:root {
+    --font-gray: #A6ACBE;
+    --color_purple: #6F52ED;
+  }
+  .card_chart_pie{
+      border: 0 !important;
+      padding-bottom: 54px;
+  }
+.card_chart_pie #top_text{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.246);
+    padding: 16px 10px 1px 10px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.info_value #text_icon{
+    float: left;
+    font-size: 13px;
+    margin-left: 2px;
+}
+.card_chart_pie #icon_ball{
+    float: left;
+    color:var(--color_purple);
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.card_chart_pie #text_number{
+    float: right;
+    margin-right: 8px;
+    margin-top: -2px;
+    color:var(--font-gray);
+    font-size: 13px;
+}
+.card_chart_pie #text_number strong{
+    color:black;
+}
+.card_chart_pie #text_icon{
+    float: left;
+}
+.icon_school_hat{
+    z-index: 999999;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 12%;
+}

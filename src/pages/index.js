@@ -1,12 +1,17 @@
 import React from 'react';
 import { Container, Row, Col, Button, Card, Image } from 'react-bootstrap';
+
 import { MdModeEdit, MdTimeline, MdTrendingDown } from 'react-icons/md';
-import { Chart } from "react-google-charts";
+
+import { AiOutlineTrophy } from 'react-icons/ai';
+import { MdAccessTime } from 'react-icons/md';
 import { RiBookLine } from 'react-icons/ri';
 import { FiPlus, FiUser } from 'react-icons/fi';
 import { BsChevronDown } from 'react-icons/bs';
 import NavBar from './components/Nav_left';
 import NavTop from './components/Nav_top';
+import Graphic_Dunut from './graphic/Donut/index';
+import Graphic_Column from './graphic/Column/index';
 import './style.css';
 import './styles_responsive.css';
 import student_one from './assets/students_one.png';
@@ -81,45 +86,16 @@ export default function index() {
                         <p>The number of applied and left students per month</p> */}
                     <Col lg={6} >
                         <Col lg={12}>
-                            <Chart
-                                className="chart_basic"
-                                // width={100}
-                                height={300}
-                                chartType="ColumnChart"
-                                loader={<div>Loading Chart</div>}
-                                data={[
-                                    ['Jan', '2010', '2000'],
-                                    ['Jan', 40, 25],
-                                    ['Feb', 40, 25],
-                                    ['Mar', 39, 36],
-                                    ['Apr', 20, 28],
-                                    ['May', 20, 15],
-                                    ['Jun', 15, 15],
-                                    ['Jul', 26, 28],
-                                    ['Sep', 20, 19],
-                                    ['Oct', 15, 15],
-                                    ['Nov', 20, 35],
-                                    ['Dec', 12, 44],
-                                ]}
-                                options={{
-                                    title: 'The number of applied and left students per month',
-                                    chartArea: { width: '90%' },
 
-                                    colors: ['#6F52ED', '#FF7A00'],
-                                    hAxis: {
-                                        // title: 'Total Population',
-                                        minValue: 0,
-                                    },
-                                }}
-                                legendToggle
-                            />
+                            <Graphic_Column />
+
                         </Col>
 
                         <Row className="card_bottom">
 
                             <Col lg={6} >
                                 <Card className="card">
-                                    <FiUser className="icon_user_card" />
+                                    <AiOutlineTrophy className="icon_trophy_card" />
                                     <div className="text_card">
                                         <h4>25</h4>
                                         <p>Lections left</p>
@@ -128,7 +104,7 @@ export default function index() {
                             </Col>
                             <Col lg={6} >
                                 <Card className="card">
-                                    <FiUser className="icon_user_card" />
+                                    <MdAccessTime className="icon_time_card" />
                                     <div className="text_card">
                                         <h4>129</h4>
                                         <p>Hours spent on lections</p>
@@ -186,6 +162,9 @@ export default function index() {
                             </div>
                         </Card>
 
+                    </Col>
+                    <Col lg={3}>
+                        <Graphic_Dunut />
                     </Col>
                 </Row>
 

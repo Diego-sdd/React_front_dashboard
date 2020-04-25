@@ -1,0 +1,42 @@
+:root {
+    --font-gray: #A6ACBE;
+    --color_purple: #6F52ED;
+  }
+.card_column{
+    border: 0px !important;
+}
+.card_column .text_top h6{
+    font-weight: bolder;
+    font-size: 13px;
+    z-index: 99999;
+    margin: 16px 0px -20px 15px ;
+    float: left;
+    position: relative;
+}
+.card_column .text_top #option{
+    float: right;
+    margin: 16px 0px -20px 15px ;
+  }
+.card_column .text_top #icon_ball{
+    float: left;
+    color:var(--color_purple);
+    width: 10%;
+}
+.card_column .text_top #icon_ball_two{
+    float: left;
+    color:#FF7A00;
+    width: 10%;
+}
+.card_column .text_top p{
+    float: left;
+    color:var(--font-gray);
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.card_column .text_top{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.246);
+    z-index: 999;
+    padding-bottom: 20px;
+    margin-bottom: -30px;
+    
+}

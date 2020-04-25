@@ -3,7 +3,7 @@ import { useHistory, useLocation } from 'react-router-dom';
 import SideNav, { NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
 import { Image } from 'react-bootstrap';
 import { GoGraph } from 'react-icons/go';
-import { BsEnvelope, BsFolder } from 'react-icons/bs';
+import { BsEnvelope, BsFolder, BsGear } from 'react-icons/bs';
 import { RiStickyNoteLine } from 'react-icons/ri';
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 import './style.css';
@@ -56,6 +56,17 @@ export default function NavBarLeft() {
                 <NavItem eventKey="charts">
                     <NavIcon>
                         <RiStickyNoteLine style={{ fontSize: '1.75em' }} />
+                    </NavIcon>
+                    <NavText>
+                        Charts
+                    </NavText>
+                </NavItem>
+                <NavItem eventKey="charts" style={{
+                    bottom: '0', position: 'absolute',
+                    width: '100%', borderTop: '1px solid #494E67', paddingTop: '10px', paddingBottom: '10px'
+                }}>
+                    <NavIcon>
+                        <BsGear style={{ fontSize: '1.75em' }} />
                     </NavIcon>
                     <NavText>
                         Charts

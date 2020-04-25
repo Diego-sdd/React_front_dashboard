@@ -1,0 +1,19 @@
+{
+    "cd_user": 1,
+    "nm_user": "Carlos Algusto",
+    "ds_office": "Professor",
+    "student": {
+        "1": {
+            "cd_student": 1,
+            "nm_student": "Diego Dias"
+        },
+        "2": {
+            "cd_student": 2,
+            "nm_student": "Fernando Santana"
+        },
+        "3": {
+            "cd_student": 3,
+            "nm_student": "Fernanda Silva"
+        }
+    }
+}
