@@ -2,18 +2,63 @@
     "cd_user": 1,
     "nm_user": "Carlos Algusto",
     "ds_office": "Professor",
-    "student": {
-        "1": {
+    "hr_lections": "122",
+    "student": [
+        {
             "cd_student": 1,
-            "nm_student": "Diego Dias"
+            "nm_student": "Diego Dias",
+            "ds_note": 5,
+            "ds_homeWorks": 1,
+            "nm_img": "avatar2",
+            "ds_groups": 1
         },
-        "2": {
+        {
             "cd_student": 2,
-            "nm_student": "Fernando Santana"
+            "nm_student": "Fernando Santana",
+            "ds_note": 9,
+            "ds_homeWorks": 1,
+            "nm_img": "avatar",
+            "ds_groups": 2
         },
-        "3": {
+        {
             "cd_student": 3,
-            "nm_student": "Fernanda Silva"
+            "nm_student": "Maria Carla",
+            "ds_note": 4,
+            "ds_homeWorks": 1,
+            "nm_img": "avatar5",
+            "ds_groups": ""
+        },
+        {
+            "cd_student": 4,
+            "nm_student": "Fernando Campos",
+            "ds_note": 10,
+            "ds_homeWorks": 0,
+            "nm_img": "avatar3",
+            "ds_groups": 3
+        },
+        {
+            "cd_student": 5,
+            "nm_student": "Joelson Nunes",
+            "ds_note": 3,
+            "ds_homeWorks": 0,
+            "nm_img": "avatar4",
+            "ds_groups": 2
+        },
+        {
+            "cd_student": 6,
+            "nm_student": "Ewerton Amorim",
+            "ds_note": 8,
+            "ds_homeWorks": 0,
+            "nm_img": "students_one",
+            "ds_groups": 2
+        },
+        {
+            "cd_student": 7,
+            "nm_student": "Beatriz",
+            "ds_note": 10,
+            "ds_homeWorks": 0,
+            "nm_img": "students_two",
+            "ds_groups": 2
         }
-    }
+    ]
 }

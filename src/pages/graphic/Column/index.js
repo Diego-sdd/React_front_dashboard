@@ -3,6 +3,7 @@ import { Chart } from "react-google-charts";
 import { BsFillCircleFill } from 'react-icons/bs';
 import { Card } from 'react-bootstrap';
 import './style.css';
+import './responsive_style.css';
 export default function Chart_Column() {
     return (
         <Card className="card_column">

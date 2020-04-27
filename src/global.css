@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    font: 500 14px Roboto, sans-serif;
+    font:700 14px Roboto, sans-serif !important;
     background: #F8F8FB !important;
     -webkit-font-smoothing:antialiased;
 }

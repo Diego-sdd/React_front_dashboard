@@ -1,0 +1,78 @@
+@media only screen and (min-width: 992px) and (max-width: 1077px){
+    .icon_school_hat{
+        top: 31%;
+    }
+
+  }
+@media only screen and (min-width: 785px) and (max-width: 991px){
+    .icon_school_hat{
+        top: 35%;
+        width: 7%;
+    }
+    .info_value #text_icon{
+        float: none;
+    }
+    .card_chart_pie #icon_ball_three{
+        margin-left: 9px;
+    }
+    .card_chart_pie #icon_ball_two{
+        margin-left: -14px;
+    }
+    .card_chart_pie #icon_ball_four{
+        margin-left: -14px;
+    }
+}
+@media only screen and (min-width: 661px) and (max-width: 784px){
+    .icon_school_hat{
+        top: 35%;
+        width: 7%;
+    }
+    .info_value #text_icon{
+        float: none;
+    }
+    .card_chart_pie #icon_ball_three{
+        margin-left: 9px;
+    }
+    .card_chart_pie #icon_ball_two{
+        margin-left: -14px;
+    }
+    .card_chart_pie #icon_ball_four{
+        margin-left: -14px;
+    }
+}
+  
+@media only screen and (min-width: 500px) and (max-width: 660px){
+    .icon_school_hat{
+        top: 36%;
+        width: 10%;
+    }
+    .info_value #text_icon{
+        float: none;
+    }
+    .card_chart_pie #icon_ball_three{
+        margin-left: 9px;
+    }
+    .card_chart_pie #icon_ball_two{
+        margin-left: -14px;
+    }
+    .card_chart_pie #icon_ball_four{
+        margin-left: -14px;
+    }
+}
+@media only screen and (min-width: 380px) and (max-width: 499px){
+    .icon_school_hat{
+        top: 37%;
+    }
+    .info_value #text_icon{
+        float: none;
+    }
+    .card_chart_pie #icon_ball_three{
+        margin-left: 9px;
+    }
+    .card_chart_pie #icon_ball_two{
+        margin-left: -14px;
+    }
+    .card_chart_pie #icon_ball_four{
+        margin-left: -14px;
+    }
+}

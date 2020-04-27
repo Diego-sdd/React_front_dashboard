@@ -4,7 +4,7 @@
   }
   .card_chart_pie{
       border: 0 !important;
-      padding-bottom: 54px;
+      padding-bottom: 45px;
   }
 .card_chart_pie #top_text{
     border-bottom: 1px solid rgba(128, 128, 128, 0.246);
@@ -22,6 +22,28 @@
     color:var(--color_purple);
     margin-left: 10px;
     margin-top: 4px;
+    margin-bottom: 20px;
+}
+.card_chart_pie #icon_ball_two{
+    float: left;
+    color:#FFB800;
+    margin-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+.card_chart_pie #icon_ball_three{
+    float: left;
+    color:#FF4C61;
+    margin-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+.card_chart_pie #icon_ball_four{
+    float: left;
+    color:#33D69F;
+    margin-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 20px;
 }
 .card_chart_pie #text_number{
     float: right;
@@ -43,5 +65,10 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    width: 12%;
+    width: 20%;
+    max-width: 20%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    padding: 10px;
+    box-shadow: 0px 1px 4px 1px #F7F7F7;
 }

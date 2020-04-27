@@ -11,8 +11,7 @@ export default function NavBarTop() {
 
     const Name_user = data.nm_user;
     const ds_office = data.ds_office;
-    const student = data.student;
-    console.log(student);
+
 
     return (
         <div className="nav_top">
